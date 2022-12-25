@@ -1,0 +1,2 @@
+#!/system/bin/sh
+echo "root" > /persist/__post_reset_cmd__

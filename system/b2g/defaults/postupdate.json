@@ -1,0 +1,6 @@
+{
+  "version": "102",
+  "settings": {
+    "ssl.certificate.fixedversion": "v2.0"
+  }
+}

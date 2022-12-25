@@ -1,0 +1,2 @@
+#!/system/bin/sh
+echo "0" > /sys/module/lowmemorykiller/parameters/enable_lmk

@@ -1,0 +1,37 @@
+#!/system/bin/sh
+# Copyright© 2011 Juwe11
+# 13.8.2011 Updated VM values - Thanks to [Kalis] for help
+# 18.8.2011 Added oom_adj values
+# 19.9.2011 Updated VM and LMK values
+
+if [ -e /sys/module/lowmemorykiller/parameters/adj ]; then
+	echo "0,1,2,4,6,15" > /sys/module/lowmemorykiller/parameters/adj
+fi
+
+if [ -e /sys/module/lowmemorykiller/parameters/minfree ]; then
+	echo "2560,4096,5632,10240,11776,14848" > /sys/module/lowmemorykiller/parameters/minfree
+fi
+
+if [ -e /proc/sys/vm/swappiness ]; then
+	echo "20" > /proc/sys/vm/swappiness
+fi
+
+if [ -e /proc/sys/vm/vfs_cache_pressure ]; then
+	echo "70" > /proc/sys/vm/vfs_cache_pressure
+fi
+
+if [ -e /proc/sys/vm/dirty_expire_centisecs ]; then
+	echo "3000" > /proc/sys/vm/dirty_expire_centisecs
+fi
+
+if [ -e /proc/sys/vm/dirty_writeback_centisecs ]; then
+	echo "500" > /proc/sys/vm/dirty_writeback_centisecs
+fi
+
+if [ -e /proc/sys/vm/dirty_ratio ]; then
+	echo "15" > /proc/sys/vm/dirty_ratio
+fi
+
+if [ -e /proc/sys/vm/dirty_background_ratio ]; then
+	echo "3" > /proc/sys/vm/dirty_background_ratio
+fi

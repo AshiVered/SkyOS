@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"Camera","description":"SkyOS Camera.","type":"privileged","launch_path":"/index.html","icons":{"112":"/icons/ic_Kamera_112.png"},"developer":"jmr982","default_locale":"en-US","permissions":{"device-storage:sdcard":{"access":"readwrite"},"camera":{"description":"Required for accessing cameras on the device."}}}

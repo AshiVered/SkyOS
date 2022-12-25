@@ -1,0 +1,55 @@
+{
+  "version": "1.13.0",
+  "name": "Music",
+  "description": "An audio player for KaiOS with playlist manager + Equalizer + MP3 Cutter/Trimmer",
+  "launch_path": "/index.html",
+  "theme": "#431F7F",
+  "theme_color": "#431F7F",
+  "background_color": "#431F7F",
+  "fullscreen": "true",
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "categories": [
+    "entertainment",
+    "utilities"
+  ],
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "arma7x",
+    "url": "https://www.kaiostech.com"
+  },
+  "origin": "app://kaimusic.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite"
+    },
+    "device-storage:music":{
+      "access": "readwrite"
+    },
+    "audio-channel-normal": {
+      "description" : "Needed to play this app's audio content on the normal channel"
+    },
+    "audio-channel-content": {
+      "description": "To play audio in background"
+    },
+    "volumemanager": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "Music",
+      "subtitle": "An audio player for KaiOS with playlist manager + Equalizer + MP3 Cutter/Trimmer",
+      "description": "An audio player for KaiOS with playlist manager + Equalizer + MP3 Cutter/Trimmer"
+    },
+    "he": {
+      "name": "מוזיקה",
+      "subtitle": "An audio player for KaiOS with playlist manager + Equalizer + MP3 Cutter/Trimmer",
+      "description": "An audio player for KaiOS with playlist manager + Equalizer + MP3 Cutter/Trimmer"
+    }
+  },
+  "default_locale": "en-US"
+}
