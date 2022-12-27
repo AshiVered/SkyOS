@@ -1,8 +1,7 @@
 ![logo](https://raw.githubusercontent.com/AshiVered/SkyOS/main/res/logo.png)
 # SkyOS
-SkyOS is a custom ROM for nokia 800 tough.
-The ROM is designed to improve speed and user experience. it's based on v40 firmware.
-We are now in the public alpha phase (0.1).
+SkyOS is a custom ROM for Nokia 800 Tough. The ROM is designed to improve speed and user experience. It's based on v40 firmware and
+it is now in the public alpha phase (0.1).
 
 
 
@@ -14,7 +13,7 @@ We are now in the public alpha phase (0.1).
 
 
 
-changes from orginal ROM (KaiOS):
+Changes from original ROM (KaiOS):
 - debloated
 - replace stock contacts app with [SkyOS contacts](https://gitlab.com/AshiVered/skyos-contacts)
 - replace stock camera app with [SkyOS camera](https://gitlab.com/AshiVered/SkyOS-Camera)
@@ -38,4 +37,3 @@ Install:
 - flash with [edl](https://wiki.bananahackers.net/development/edl)
 
 Thanks to all the developers of the KaiOS community, especially those whose guides and resources I used!
-
