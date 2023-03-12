@@ -1,3 +1,5 @@
+NOTE: [The project has been frozen.](https://github.com/AshiVered/SkyOS/issues/6)
+
 ![logo](https://raw.githubusercontent.com/AshiVered/SkyOS/main/res/logo.png)
 # SkyOS
 SkyOS is a custom ROM for Nokia 800 Tough. The ROM is designed to improve speed and user experience. It's based on v40 firmware and
