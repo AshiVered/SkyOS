@@ -1,4 +1,3 @@
-NOTE: [The project has been frozen.](https://github.com/AshiVered/SkyOS/issues/6)
 
 ![logo](https://raw.githubusercontent.com/AshiVered/SkyOS/main/res/logo.png)
 # SkyOS
