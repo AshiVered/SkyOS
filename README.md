@@ -33,6 +33,13 @@ To-do list:
 - add virtual RAM memory (swap file)
 - replacing boot logo
 
+
+Known bugs:
+(thanks [@Cobeta-beta](https://github.com/Cobeta-beta) )
+- For a while after the OS boots, you can't change settings in "quick settings"
+- Some applications doesnt open if it binded on the hotkey button. (Notes, Music, Browser, E-Mail, Camera. Everything else works fine.)
+
+  
 Install:
 - download boot.img&system.img from realeses page
 - flash with [edl](https://wiki.bananahackers.net/development/edl)
