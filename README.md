@@ -44,4 +44,7 @@ Install:
 - download boot.img&system.img from realeses page
 - flash with [edl](https://wiki.bananahackers.net/development/edl)
 
+Contact us:
+our [slack room](https://skyosdevelopers.slack.com/)
+
 Thanks to all the developers of the KaiOS community, especially those whose guides and resources I used!
