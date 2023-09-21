@@ -1227,8 +1227,16 @@ case "$target" in
 	fi
 	#Disable ALMK due to memory leakage in b2g process on apps getting killed by ALMK.
 	echo 0 > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
-        mkswap /dev/block/zram0
-        swapon /dev/block/zram0
+        if [ -e "/data/opt/swapfile" ]; then
+		swapon /data/opt/swapfile
+        else
+		mount -o remount,rw /system
+		mount -o remount,rw /data
+		busybox mkdir /data/opt
+		busybox dd if=/dev/zero of=/data/opt/swapfile bs=1024 count=524288
+		busybox mkswap /data/opt/swapfile
+		swapon /data/opt/swapfile
+	fi
 
 	if [ "$ProductName" != "msm8909w" ]; then
 		# HMP scheduler settings for 8909 similiar to 8916
