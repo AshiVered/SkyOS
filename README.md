@@ -1,3 +1,7 @@
+![image](https://raw.githubusercontent.com/AshiVered/support-israel-banner/main/assets/support-israel-banner.jpg)
+
+
+
 
 ![logo](https://raw.githubusercontent.com/AshiVered/SkyOS/main/res/logo.png)
 # SkyOS
