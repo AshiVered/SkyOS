@@ -46,7 +46,7 @@ Known bugs:
   
 Install:
 - download boot.img&system.img from realeses page
-- flash with [edl]([https://wiki.bananahackers.net/development/edl](https://wiki.bananahackers.net/en/guides/boot/edl))
+- flash with [edl](https://wiki.bananahackers.net/en/guides/boot/edl)
 
 Contact us:
 our [slack room](https://skyosdevelopers.slack.com/)
